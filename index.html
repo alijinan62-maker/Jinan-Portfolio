@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jJinan | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Jinan<span>.</span></div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <div class="home-content">
+                <h1>Hello, I'm Jinan!</h1>
+                <h2>Management Information Systems Student</h2>
+
+                <p>
+                    Welcome to my personal website.
+                    Discover more about me, my education,
+                    skills, and interests.
+                </p>
+
+                <a href="#about" class="btn">Discover More</a>
+            </div>
+
+            <div class="home-image">
+                <img src="profile.png" alt="Jinan Profile Image">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-box">
+                <h3>Who Am I?</h3>
+
+                <p>
+                    I am a third-year Management Information
+                    Systems student at Al-Rayan University.
+                    I am passionate about technology,
+                    creativity, and learning new skills.
+                </p>
+
+                <p>
+                    I enjoy exploring the world of web
+                    development and improving my knowledge
+                    in programming and design.
+                    I am always looking for opportunities
+                    to develop myself, gain new experiences,
+                    and achieve my future goals.
+                </p>
+
+                <h4>My Background</h4>
+                <p>
+                    My academic journey has helped me
+                    develop an interest in information
+                    systems, technology, and digital solutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section light-section">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML &amp; CSS</li>
+                        <li>Basic Programming</li>
+                        <li>Web Design</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Personal Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Teamwork</li>
+                        <li>Time Management</li>
+                        <li>Creativity</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="section">
+            <h2 class="section-title">My Hobbies</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Reading</h3>
+                    <p>
+                        I enjoy reading because it helps
+                        me gain knowledge and discover
+                        new ideas.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Photography</h3>
+                    <p>
+                        Photography allows me to express
+                        my creativity and capture
+                        beautiful moments.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section light-section">
+            <h2 class="section-title">Education</h2>
+
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Level</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>Bachelor's Degree</td>
+                        <td>Al-Rayan University</td>
+                        <td>Third Year</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td>High School Certificate</td>
+                        <td>High School</td>
+                        <td>Secondary Education</td>
+                        <td>Completed</td>
+                    </tr>
+                </table>
+            </div>
+
+            <h5>Academic Interests</h5>
+            <p class="center-text">
+                Information Systems, Web Development,
+                and Technology.
+            </p>
+
+            <h6>Continuous Learning</h6>
+            <p class="center-text">
+                I believe learning is a lifelong journey.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+
+            <p class="center-text">
+                Feel free to get in touch with me.
+            </p>
+
+            <div class="contact-container">
+                <form action="#" method="get">
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name"
+                           name="name"
+                           placeholder="Enter your full name"
+                           required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email"
+                           name="email"
+                           placeholder="Enter your email"
+                           required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject"
+                           name="subject"
+                           placeholder="Enter subject"
+                           required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              placeholder="Write your message"
+                              required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <p class="center-text">
+                Email: student.portfolio@example.com
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Jinan Ali Balbaheeth.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
